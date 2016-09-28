@@ -1,6 +1,6 @@
-# Soduku Solver
-### Author: Will Roever
-### Language: Python 2.7
+# Sudoku Solver
+Author: Will Roever
+Language: Python 2.7
 
 ## Usage:
 ```
