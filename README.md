@@ -1,14 +1,19 @@
-Soduku Solver
-Author: Will Roever
-Language: Python 2.7
+# Soduku Solver
+### Author: Will Roever
+### Language: Python 2.7
 
-Usage: python solver.py file
+## Usage:
+```
+python solver.py file
+```
+Positional arguments:
+```      
+file        name of a CSV-formatted Sudoku template file
+```
 
-    positional arguments:
-      file        name of a CSV-formatted Sudoku template file
+## Example input file format:
 
-Example input file format:
-
+```
  , , , , , , , ,1
  , ,6, ,7, , ,3, 
  , , ,8,3,5, , , 
@@ -18,9 +23,9 @@ Example input file format:
 1, ,5,3, ,7, ,2,6
  ,2, , , ,1,7,5, 
  , , , , , , , ,8
+```
 
-
-Description:
+## Description:
 
 The solver.py program takes a 9x9 CSV file and interprets it as the starting
 state for a sodoku puzzle. There are two main abstractions that the program
