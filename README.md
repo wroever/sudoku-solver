@@ -1,13 +1,13 @@
 # Sudoku Solver
-Author: Will Roever
-Language: Python 2.7
+
+An A* Sudoku solver, written in Python
 
 ## Usage:
 ```
 python solver.py file
 ```
 Positional arguments:
-```      
+```
 file        name of a CSV-formatted Sudoku template file
 ```
 
@@ -15,13 +15,13 @@ file        name of a CSV-formatted Sudoku template file
 
 ```
  , , , , , , , ,1
- , ,6, ,7, , ,3, 
- , , ,8,3,5, , , 
- , ,3,6, , , ,7, 
- , , , ,1,3, , , 
-5, , , ,4, ,8, , 
+ , ,6, ,7, , ,3,
+ , , ,8,3,5, , ,
+ , ,3,6, , , ,7,
+ , , , ,1,3, , ,
+5, , , ,4, ,8, ,
 1, ,5,3, ,7, ,2,6
- ,2, , , ,1,7,5, 
+ ,2, , , ,1,7,5,
  , , , , , , , ,8
 ```
 
